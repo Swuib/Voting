@@ -1,9 +1,4 @@
 ## Projet - Système de vote
-
-✔️ Le vote n'est pas secret pour les utilisateurs ajoutés à la Whitelist
-✔️ Chaque électeur peut voir les votes des autres
-✔️ Le gagnant est déterminé à la majorité simple
-✔️ La proposition qui obtient le plus de voix l'emporte.
 ----------------------------------------------------------------
 Note :
 Pour cet exercice, j'ai essayé de rester le plus simple possible.
