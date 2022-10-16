@@ -153,7 +153,7 @@ contract Voting is Ownable {
             }
         }
         equalityProposalsId.push(IdBestValue);
-        if(equalityProposalsId.length >= 2) {
+        if(equalityProposalsId.length >= 2 && IdBestValue <= equalityProposalsId[0]) {
             proposals.push(Proposal("Equality in the vote ! The vote is null !",0));
             winningProposalId = proposals.length - 1;
         } else {
